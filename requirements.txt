@@ -1,0 +1,5 @@
+ModestMaps==1.4.6
+Pillow==2.8.1
+simplejson==3.6.5
+TileStache==1.50.1
+Werkzeug==0.10.4
