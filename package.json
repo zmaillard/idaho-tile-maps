@@ -1,0 +1,19 @@
+{
+  "name": "idaho-tile-maps",
+  "version": "0.0.0",
+  "description": "Small Leaflet Based Map That Displays Scanned Copies Of The Official Idaho Highway Maps",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zmaillard/idaho-tile-maps.git"
+  },
+  "author": "Zachary Maillard",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zmaillard/idaho-tile-maps/issues"
+  },
+  "homepage": "https://github.com/zmaillard/idaho-tile-maps"
+}
