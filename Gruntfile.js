@@ -8,6 +8,11 @@ module.exports = function(grunt) {
 					cwd: 'site/',
 					src: ['**'], 
 					dest: '_dist/'
+				},{
+					expand: true, 
+					cwd: 'bower_components/',
+					src: ['**'], 
+					dest: '_dist/lib'	
 				}]
 			}
 		},
@@ -33,9 +38,8 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks ("grunt-exec");
     grunt.loadNpmTasks ("grunt-contrib-connect");
     grunt.loadNpmTasks ("grunt-contrib-watch");
-    grunt.loadNpmTasks ("grunt-bower-task");
     grunt.loadNpmTasks ("grunt-contrib-copy");
 
-    grunt.registerTask('build', ['copy','bower:install']);
+    grunt.registerTask('build', ['copy']);
 	grunt.registerTask('default', ['build', 'connect:server']);
 };
